@@ -200,13 +200,13 @@ while True:
                     if d == 1:
                         print("we will play the guessing number")
                         speak("we will play the guessing number")
-                        for i in range(6):
+                        for i in range(5):
                             guessinggame()
 
                     elif d == 2:
                         print("we will play rock paper scissors")
                         speak("we will play rock paper scissors")
-                        for i in range(6):
+                        for i in range(5):
                             rockpaperscissors()
             except Exception as e:
                 print(e)
